@@ -12,7 +12,11 @@ function newWinner(data){
     setTimeout(()=>{
         clearInterval(interval);
         $winner.classList.add("winner-yes");
-    },5000)
+        startConfetti()
+        setTimeout(()=>{
+            stopConfetti();
+        },2000)
+    },2000)
 }
 
 function getWinner() { 

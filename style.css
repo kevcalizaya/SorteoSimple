@@ -16,14 +16,30 @@ img {
     max-width: 100%;
     height: auto;
 }
+main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100%;
+}
+#confetti-canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100%;
+    z-index:0;
+    background: rgb(228,116,10);
+    background: linear-gradient(162deg, rgba(228,116,10,1) 20%, rgba(237,58,19,1) 100%);
+}
 .container{
+    
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background: rgb(228,116,10);
-    background: linear-gradient(162deg, rgba(228,116,10,1) 20%, rgba(237,58,19,1) 100%);
 }
 .title{
     font-size: 4rem;

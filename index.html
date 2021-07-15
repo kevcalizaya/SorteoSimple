@@ -5,23 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
     <title>Sorteo Caminoz de paz</title>
-    
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="confetti.js"></script>
     <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <div class="container">        
-        <header class="header">
-            <h1 class="title">Sorteo Caminos de paz</h1>
-        </header>
+    <canvas id="confetti-canvas">
+
+    </canvas>
     <main>
-        <h2 class="winner " id="winner">El ganador es:</h2>
-        <button class="button" id="buttonWinner">¡Sortear!</button>
+        <div class="container">
+            <header class="header">
+                <h1 class="title">Sorteo Caminos de paz</h1>
+            </header>
+            <div>    
+                <h2 class="winner " id="winner">El ganador es:</h2>
+                <button class="button" id="buttonWinner">¡Sortear!</button>
+            </div>
+        </div>
     </main>
-</div>
 </body>
 
 </html>
