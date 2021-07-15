@@ -1,0 +1,58 @@
+/* ------* Reset css *------- */
+html {
+    box-sizing:border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+    margin: 0px;
+    box-sizing: inherit;
+    outline: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: rgb(228,116,10);
+    background: linear-gradient(162deg, rgba(228,116,10,1) 20%, rgba(237,58,19,1) 100%);
+}
+.title{
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 4px 2px rgb(22, 22, 22);
+}
+.winner{
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: #2a7af1;
+    text-shadow: 0px 0px 0.4rem #ccc;
+}
+.winner-yes{
+    font-size: 4rem;
+    text-shadow: 0px 0px 1rem 2rem  rgb(48, 179, 189);
+}
+.button{
+    font-size: 2rem;
+    color:#fff;
+    border-radius: 0.5rem;
+    background-color: rgb(194, 15, 9);
+    margin: 1rem;
+    transition: all 300ms;
+}
+.button:hover{
+    font-size: 2.1rem;
+    box-shadow: 0px 0px 1rem #ccc;
+}
+.button:active{
+    font-size: 2.1rem;
+    box-shadow: 0px 0px 1rem #2a7af1;
+}
